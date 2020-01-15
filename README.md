@@ -68,6 +68,7 @@ ROS(Robot Operating System) is a popular framework for building the software for
 ## ✍️ 4. Notes <a name = "notes"></a>
 1. when using **catkin_make** on raspberry pi:
 Use `catkin_make -j2` instead of `catkin_make`
+2. check **[HERE](https://github.com/ksu-cs-robotics/software-development-for-robotics-spring-2020/tree/master/doc)** for more note
 ```
 "-j2" means using 2 cores for computing.
 Raspberry pi has 4 core process by default, if didn't use "-j2", it will use all 4 core process to compute, which may result in crash or froze.
