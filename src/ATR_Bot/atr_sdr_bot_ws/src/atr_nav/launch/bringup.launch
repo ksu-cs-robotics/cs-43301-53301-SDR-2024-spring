@@ -1,0 +1,7 @@
+<launch>
+    <arg name="prefix"  default="atr"/>
+
+    <group ns = "$(arg prefix)">
+        <node pkg="atr_nav" type="ros_con.py" name="ros_con" output="screen"></node>
+    </group>
+</launch>

@@ -1,0 +1,33 @@
+<launch>
+
+    <!-- init value -->
+    <arg name="first_tb3" default="tb3_0"/>
+    <arg name="map_file" default="$(find project_navigation)/config/maps/mymap.yaml"/>
+    <arg name="initial_pose_x_arg" default="-4.986849"/>
+    <arg name="initial_pose_y_arg" default="-4.001029"/>
+    <arg name="initial_pose_a_arg" default="1.57"/>
+    
+
+    <!-- gmapping -->
+    <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)">
+        <remap from="map" to="$(arg first_tb3)/map"/>
+        <param name="frame_id" value="$(arg first_tb3)/map" />
+    </node>
+
+    <include file="$(find project_navigation)/launch/namespace_amcl.launch">
+        <arg name="namespace" value="$(arg first_tb3)"/>
+        <arg name="initial_pose_x" default="$(arg initial_pose_x_arg)"/>
+        <arg name="initial_pose_y" default="$(arg initial_pose_y_arg)"/>
+        <arg name="initial_pose_a" default="$(arg initial_pose_a_arg)"/>
+    </include>
+
+    <!-- move base -->
+    <group ns="$(arg first_tb3)">
+        <include file="$(find project_navigation)/launch/namespace_move_base.launch">
+            <arg name="namespace" value="$(arg first_tb3)"/>
+        </include>
+    </group>
+
+    <node pkg="tf" type="static_transform_publisher" name="robot0_to_world" args="0 0 0 0 0 0 /map /$(arg first_tb3)/map 20" />
+
+</launch>
