@@ -103,6 +103,7 @@ Hardcopy : $40 USD - http://www.robotis.us/ros-robot-programming-book/
 
 ### Grading:
 Students will be evaluated based on the following course activities and graded based on the following weighting:
+
 |Item|Percentage|(Individual/Group)|
 |--|:--:|:--:|
 |Attendance, Participation, and (in class) Pop Quiz|10%|individual|
