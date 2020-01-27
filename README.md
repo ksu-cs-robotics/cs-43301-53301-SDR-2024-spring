@@ -86,7 +86,7 @@ deep-learning robots and their components
 &emsp; Published by ROBOTIS Co.,Ltd. <br/>
 &emsp; ISBN: 979-11-962307-1-5
 <br/>
-[**Free Download Pdf version​:**]​ http://www.robotis.com/service/download.php?no=719
+**[Free Download Pdf version​:]**​ http://www.robotis.com/service/download.php?no=719
 <br/>
 Hardcopy : $40 USD - http://www.robotis.us/ros-robot-programming-book/
 <br/>
