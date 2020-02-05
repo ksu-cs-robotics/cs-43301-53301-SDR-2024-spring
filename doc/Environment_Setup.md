@@ -182,6 +182,7 @@ sudo apt install python-rosinstall python-rosinstall-generator python-wstool bui
     ```
     sudo apt install terminator
     ```
+    you can **right click** on Terminator to split windows, so that you can have multiple terminal in one windows
 
 ### 3.3 SSH
 - **Raspberry pi:**
