@@ -24,7 +24,7 @@
 
 ## ✒️ Important Notes: <a name = "important"></a>
 
-1. Important Command for Working with Ubuntu
+1. **Important Command for Working with Ubuntu**
     - **CTRL + ALT + T** to open up a **terminal**
     - **CTRL + ALT + C** to Copy stuff **Inside** terminal
     - **CTRL + ALT + Y** to Paste stuff **Inside** terminal
