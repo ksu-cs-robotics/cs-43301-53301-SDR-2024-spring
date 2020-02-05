@@ -23,7 +23,8 @@
 + [0. Tools](#tools)
 + [1. PC Setup](#pc_setup)
 + [2. ROS Installation](#rosinstall)
-+ [3. Notes](#notes)
++ [3. Software Setup](#software)
++ [4. Notes](#notes)
 
 ## 💬 0. Tools <a name = "tools"/>
 #### We will use "Github" for homework submision and "Slack" for communication 
@@ -159,18 +160,49 @@ source ~/.bashrc
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
 
+## 👨🏻‍💻 3. Software Setup <a name = "software"></a>
 
-## ✍️ 3. Notes <a name = "notes"></a>
+### 3.1. IDE
+- **Raspberry pi:**
 
-- when using **catkin_make** on raspberry pi:
-Use `catkin_make -j2` instead of `catkin_make`
-  - *"-j2" means using 2 cores for computing.*
-  - *Raspberry pi has 4 core process by default, if didn't use "-j2", it will use all 4 core process to compute, which may result in crash or froze.*
+  Bluefish: ``` sudo apt install bluefish ```
 
-- **CTRL + ALT + T** to open up a **terminal**
----
-- **CTRL + ALT + C** to Copy stuff **Inside** terminal
-- **CTRL + ALT + Y** to Paste stuff **Inside** terminal
----
-- **CTRL + C** to Copy stuff **Outside** terminal
-- **CTRL + Y** to Paste stuff **Outside** terminal
+- **Personal PC:**
+
+  Visual Studio Code: check [this link](https://code.visualstudio.com/) and download **.deb**
+    1. Option 1: left click on the file to install 
+    1. Option 2: open terminal and enter 
+    ``` 
+    cd ~/Downloads/
+    sudo dpkg -i code_1.41.1-1576681836_amd64.deb 
+    ## check the name of the file you just download, it might be different
+    ```
+### 3.2 Terminal Tool:
+  - on both Raspberry pi and Personal PC
+    ```
+    sudo apt install terminator
+    ```
+
+### 3.3 SSH
+- **Raspberry pi:**
+
+  enable ssh:
+  ```
+  sudo apt install ssh
+  sudo systemctl enable ssh
+  sudo systemctl start ssh
+  sudo rm /etc/ssh/ssh_host_*
+  sudo dpkg-reconfigure openssh-server
+  ```
+
+- **Personal PC:**
+
+  1. **Ubuntu:** open terminal and install ssh ```sudo apt install ssh```
+
+      **Windows:** [install putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), under "MSI (‘Windows Installer’)" -> "64-bit" -> "putty-64bit-0.73-installer.msi"
+
+  1. Generate ssh config file: open terminal (Ubuntu) or CMD (Windows), enter ```ssh remote_PC_username@remote_PC_IP_address``` for example, username for our raspberry pi is atr@cs-ksu, and ip is 192.168.1.31. so you need to use ```ssh atr@192.168.1.31```
+
+  1. Open **Visual Studio Code** and click on **Extensions** on the left side, install "Remote - SSH **(Nightly)**" (this extension work best with "VS Code Insiders", but it is not required to have that, "VS Code" normal version would also work)
+
+  1. check out [this tutorial](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx)
