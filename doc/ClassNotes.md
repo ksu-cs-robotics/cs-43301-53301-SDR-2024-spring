@@ -24,6 +24,9 @@
 
 ## ✒️ Important Notes: <a name = "important"></a>
 
+1. **Addition link:**
+    - ROS offical Tutorial: http://wiki.ros.org/ROS/Tutorials
+
 1. **Important Command for Working with Ubuntu**
     - **CTRL + ALT + T** to open up a **terminal**
     - **CTRL + ALT + C** to Copy stuff **Inside** terminal
