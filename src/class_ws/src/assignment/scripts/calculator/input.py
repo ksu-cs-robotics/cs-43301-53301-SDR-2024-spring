@@ -2,7 +2,6 @@
 # license removed for brevity
 import rospy
 from std_msgs.msg import Int16
-from std_msgs.msg import String
 
 num1_pub = rospy.Publisher('num1_topic', Int16, queue_size=10)
 # add another publish to publish another 
