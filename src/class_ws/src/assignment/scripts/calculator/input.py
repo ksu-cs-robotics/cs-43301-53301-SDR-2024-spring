@@ -12,7 +12,9 @@ def result_callback(data):
 
 def main():
     rospy.init_node('talker', anonymous=True)
-
+    
+    num1_pub.publish(123)
+    
     rospy.Subscriber("result_topic", Int16, result_callback)
 
     rospy.spin()
