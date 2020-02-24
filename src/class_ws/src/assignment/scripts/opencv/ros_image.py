@@ -72,6 +72,12 @@ class image_converter:
     #     frame[top:bottom, left:right] = face_image
     #-----------------------USING FACE_RECOGNITION LIBRARY----------------------------------------
 
+    #-----------------------Edge Detection----------------------------------------
+    # edges = cv2.Canny(frame,100,200) 
+
+    # cv2.imshow("edge window", edges)
+    #-----------------------Edge Detection----------------------------------------
+
     cv2.imshow("Image window", frame)
     cv2.waitKey(3)
 
