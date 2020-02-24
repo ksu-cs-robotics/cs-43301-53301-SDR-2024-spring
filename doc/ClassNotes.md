@@ -80,3 +80,11 @@
 
 1. **face detection:**
     check out [this library](https://pypi.org/project/face_recognition/)
+
+1. **read joystick value**
+    check out this link: http://wiki.ros.org/joy
+    ```
+    sudo apt install ros-melodic-joy #install package
+    rosrun joy joy_node #publish joystick value to ROS
+    # make sure your joystick is deteced by system, you can check that by check if there is anything call "js0" under /dev/input/
+    ```
