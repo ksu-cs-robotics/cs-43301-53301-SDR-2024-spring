@@ -43,4 +43,5 @@
 
     <img src="https://raw.githubusercontent.com/ksu-cs-robotics/software-development-for-robotics-spring-2020/master/resources/images/zoom/zoom_4.jpg"/>
     </p>
-    you can play around it for a while to check out all the things zoom can do
+    
+    **play around it for a while to check out all the things zoom can do**
