@@ -33,13 +33,14 @@
 1. Create an account:  
     https://zoom.us/signin
 
-1. Joint Meeting
-    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/Software-Development-for-Robotics/master/resources/images/zoom/zoom_1.jpg"/>
+1. Joint Meeting:  
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/software-development-for-robotics-spring-2020/master/resources/images/zoom/zoom_1.jpg"/>
 
-    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/Software-Development-for-Robotics/master/resources/images/zoom/zoom_2.jpg"/>
+    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/software-development-for-robotics-spring-2020/master/resources/images/zoom/zoom_2.jpg"/>
 
-    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/Software-Development-for-Robotics/master/resources/images/zoom/zoom_3.jpg"/>
+    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/software-development-for-robotics-spring-2020/master/resources/images/zoom/zoom_3.jpg"/>
 
-    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/Software-Development-for-Robotics/master/resources/images/zoom/zoom_4.jpg"/>
-
+    <img src="https://raw.githubusercontent.com/ksu-cs-robotics/software-development-for-robotics-spring-2020/master/resources/images/zoom/zoom_4.jpg"/>
+    </p>
     you can play around it for a while to check out all the things zoom can do
