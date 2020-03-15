@@ -30,6 +30,8 @@
         ```
         sudo apt install zoom
         ```
+    1. Phone:   
+        go to App Store and Download
 1. Create an account:  
     https://zoom.us/signin
 
@@ -45,3 +47,15 @@
     </p>
     
     **play around it for a while to check out all the things zoom can do**
+
+## 🏁 Notes:
+1. if you got disconnect from zoom:   
+    Join again
+1. if you not able to join:   
+    send message on Slack
+1. if you have problem with your audio:   
+    you can send message on Zoom and Slack
+1. if you dont know the meeting ID:   
+    check the pined message on Slack. we will post it and PINED on Slack Chanel
+1. if you have problems with your code and need to discuss with others   
+    you can join the class with the "zoom" app on your phone to keep in the loop, and create a indivisual "zoom" meeting from your PC with others to discuss your problems.
