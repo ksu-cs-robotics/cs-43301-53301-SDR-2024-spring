@@ -15,7 +15,7 @@
 
 ---
 
-<p align="center"> Monday and Wednesday from : 11:00 AM to 12:15 PM - MSB 104 Lab room
+<p align="center"> Monday and Wednesday from : 09:15 AM to 10:30 AM - MSB 104 Lab room
 </p>
 
 
