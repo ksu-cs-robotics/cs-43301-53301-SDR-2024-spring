@@ -130,37 +130,37 @@ Students will be evaluated based on the following course activities and graded b
 
 ||||
 |--|--|--|
-|Week1|01/13/2020|Introduction to Software Development for Robotics (Course, Schedule/Requirements)|
-||01/15/2020|Ch1. Robot_Software_Platform|
-|Week2|**01/20/2020**|**Martin Luther King Jr Day**|
-||01/22/2020|Development Environment Setup|
-|Week3|01/27/2020|Ch2. Robot_Operating_System_ROS|
-||01/29/2020|Ch3. Configuring the ROS Development Environment|
-|Week4|02/03/2020|Ch4. Important Concepts of ROS|
-||02/05/2020|Ch5. ROS Commands|
-|Week5|02/10/2020|Ch6. ROS Tools|
-||02/12/2020|Ch7. Basic ROS Programming|
-|Week6|02/17/2020|Ch8. Robot. Sensor. Motor.|
-||02/19/2020||
-|Week7|02/24/2020|Ch9. Embedded System|
-||02/26/2020||
-|Week8|03/02/2020|Ch10. Mobile Robots|
-||03/04/2020||
-|Week9|03/09/2020|Introduce ongoing projects in several laboratories (ATR Lab, Scale Lab, MediaLab, etc.)|
-||**03/11/2020**|**Midterm Exam**|
-|Week10|03/16/2020|Ch11. SLAM and Navigation|
-||03/18/2020||
-|Week11|**03/23~03/25**|**Spring Break**|
-|Week12|03/30/2020|Ch12. Service Robot|
-||04/01/2020|Ch13. Manipulator|
-|Week13|04/06/2020|Project Work Time - No Lecture and tutorial, but instructor/assistant will help your HW/SW troubleshooting for your project|
-||04/08/2020|Individual Robot Competition - A|
-|Week14|04/13/2020|Group Project Proposal Presentation (Group - 10min presentation & 5 min QnA)|
-||04/15/2020|Group Project Work Time - No Lecture and tutorial, but instructor/assistant will help your HW/SW troubleshooting for your project|
-|Week15|04/20/2020|Team Robot Competition - B|
-||04/22/2020|Final Project Presentation (Group - 10min presentation & 5 min QnA)|
-|Week16|**04/27/2020**|**Final Exam**|
-||04/29/2020||
+|Week1|A|Introduction to Software Development for Robotics (Course, Schedule/Requirements)|
+||B|Ch1. Robot_Software_Platform|
+|Week2|**A**|**Martin Luther King Jr Day**|
+||B|Development Environment Setup|
+|Week3|A|Ch2. Robot_Operating_System_ROS|
+||B|Ch3. Configuring the ROS Development Environment|
+|Week4|A|Ch4. Important Concepts of ROS|
+||B|Ch5. ROS Commands|
+|Week5|A|Ch6. ROS Tools|
+||B|Ch7. Basic ROS Programming|
+|Week6|A|Ch8. Robot. Sensor. Motor.|
+||B||
+|Week7|A|Ch9. Embedded System|
+||B||
+|Week8|A|Ch10. Mobile Robots|
+||B||
+|Week9|A|Introduce ongoing projects in several laboratories (ATR Lab, Scale Lab, MediaLab, etc.)|
+||**B**|**Midterm Exam**|
+|Week10|A|Ch11. SLAM and Navigation|
+||B||
+|Week11|*******|**Spring Break**|
+|Week12|A|Ch12. Service Robot|
+||B|Ch13. Manipulator|
+|Week13|A|Project Work Time - No Lecture and tutorial, but instructor/assistant will help your HW/SW troubleshooting for your project|
+||B|Individual Robot Competition - A|
+|Week14|A|Group Project Proposal Presentation (Group - 10min presentation & 5 min QnA)|
+||B|Group Project Work Time - No Lecture and tutorial, but instructor/assistant will help your HW/SW troubleshooting for your project|
+|Week15|A|Team Robot Competition - B|
+||B|Final Project Presentation (Group - 10min presentation & 5 min QnA)|
+|Week16|*******|**Final Exam**|
+
 
 ### Course policy:
 1. **Class participation and preparation**
