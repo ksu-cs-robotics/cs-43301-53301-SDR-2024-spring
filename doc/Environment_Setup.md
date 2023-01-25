@@ -159,6 +159,31 @@ source ~/.bashrc
 
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
+### 2.3 Ubuntu 20 & ROS Noetic
+here is the more detail explanation of how to [install ROS on ubuntu 20](http://wiki.ros.org/noetic/Installation/Ubuntu)
+
+here is simplify version if you are having trouble following the tutorial link:
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+
+sudo apt update
+
+sudo apt install ros-noetic-desktop-full 
+
+for Rpi 3B+, "sudo apt install ros-noetic-desktop"
+
+sudo rosdep init
+
+rosdep update
+
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+
+source ~/.bashrc
+
+sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+```
 
 ## 👨🏻‍💻 3. Software Setup <a name = "software"></a>
 
