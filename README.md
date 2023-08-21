@@ -3,7 +3,7 @@
  <img src="resources/images/ATR-logo.gif" alt="ATR"></a>
 </p>
 
-<h3 align="center">CS 43301/53301: Software Development for Robotics</h3>
+<h3 align="center">CS 53334/73334: Human Robot Interaction</h3>
 
 <div align="center">
 
@@ -31,22 +31,27 @@
 |Office Location:|MSB 236-A|
 |Office Phone:|330-672-9060|
 |e-mail:|jkim72@kent.edu|
-|Office Hours:|Monday and Wednesday: <br/> 10:30 AM - 11:00 AM (MSB 104) <br/> 12:15 PM ~ 13:30 PM (MSB 236-A) <br/> Other times by appointment|
+|Office Hours:|Monday and Wednesday: <br/> 10:00 AM - 11:00 AM (in person: MSB 236-B or Virtual: MS Team ) <br/> 12:15 PM ~ 13:00 PM (in person: MSB 236-B or Virtual: MS Team )  <br/> Other times by appointment|
 |---|---|
 |Teaching Assistant:|Xiangxu Lin|
 |TA-Office Hours:|By email appointment|
 |TA-Email:|xlin10@kent.edu|
 
 ### Prerequisite:
-C or better in CS 13001 Computer Programming <br/>
-C or better in CS 23001 Data Structure <br/>
-C or better in CS 33201 Embedded System Programming (from 2020 Spring) <br/>
+
+This course is mainly designed for graduate students who have a research interest in human-robot interaction, with a special emphasis on robotic systems and technologies <br/>
+
+The course project may involve significant programming works and thus, solid mastery of computer programming skill and understanding of research methodologies <br/>
+The programming assignments will be team-based as part of the course project; thus, those with less than the required programming skills may consider this course but will need to team together with students who have more programming experience.<br/> <br/>
+
+Undergraduate students who want to have hands-on experience on intelligent robotics system : C or above in CS-43301 Software Development for Robotics <br/>
 
 ### Credits:
 3 (The course satisfies a requirement for the Computer Science major and minor/ CS Graduate)
 
 ### Course Outline and Objectives:
-Robots are being used in multiple places that are not easily accessible for humans, to support the lack of available labor, to gain extra precision, and for cost effective manufacturing processes, monitoring, space exploration, precision surgery and artificial limb support for elderly and physically challenged persons. Computer science is an integral part of robotics as it includes areas such as computer algorithms, artificial intelligence, and image processing that are essential aspects of robotics. This course will teach the students fundamentals of robotics along with various software, hardware for robot developments based on the Robot Operating System (ROS) which is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms. This course will provide hands-on experience with lab activities and practical knowledge from semester-long projects. During the semester, the students will build a Battle Bot based on a customized TurtleBot with ROS. And the class will host a battle bot competition at the end of the semester as a part of the class. This is a demo video (​ https://youtu.be/F-Cr1E8kr7c ) for the SDR class (CS 43301/53301-Software Development for Robotics).
+Human-Robot Interaction (HRI) is the study of interactions between humans and robots dedicated to understanding, designing, and evaluating robotic systems for use by and with humans. HRI is a multidisciplinary field that incorporates human-computer interaction, artificial intelligence, robotics, natural language understanding, design, and social sciences. Interaction between humans and robots may take several forms, but are generally categorized by how close in proximity the humans and robots are to each other such as remote, proximate, and hybrid interaction. In the class, students will learn the fundamental technologies and theories in each category, and blend this knowledge with various case studies and lab activities.
+
 
 <div>
 <img src="resources/images/random/sy1.png" width="48%"/> 
@@ -64,42 +69,28 @@ Robots are being used in multiple places that are not easily accessible for huma
 
 ### Learning Outcomes:
 Students completing this course will
-- learn the evolution of robotics and modern happenings in robotics technology
-- understand fundamental concepts in robotics
-- become familiar with terminology of robotics
+- learn the theoretical & practical base for robot design and human interface design
+- become familiar with Human-Robot Interaction
 - deepen the knowledge of the robots and their components
-- learn the principles of operation of a robotic system
-- analyze the problems and challenges on the fundamentals of the methods in robotics research
-- study concepts of motion control of a mobile robot navigation
+- learn how to measure the performance in Human-Robot Interaction
+- analyze the problems and challenges on Human-Robot Interaction 
+- study the robot applications which have human in loop
 - understand how to perform secure, safe, user-friendly, and smart tasks on robots
-- experience real hardware & software components such as Single Board Computer(Raspberry Pi),
-Embedded System (Arduino), Sensors, Actuators, etc.
-- gain practical knowledge from hand-on-Experience with Robot-Operating System (ROS) with
-deep-learning robots and their components
-- grasp an ability to collaborate in groups and teams in problem solving and in project management.
+- uHand-on-Experience with Robot-Operating System (ROS), Single Board Computer(Raspberry Pi), Embedded System (Arduino), Sensors, Python, Natural Language Processing, Image Processing
+
 
 ### Required Text:
 
-- Title: ROS Robot Programming (EN) / ROS <br/>
-&emsp; Authors: YoonSeok Pyo, HanCheol Cho, RyuWoon Jung, TaeHoon Lim. 
-&emsp; First Edition: Dec 22, 2017 <br/>
-&emsp; Published by ROBOTIS Co.,Ltd. <br/>
-&emsp; ISBN: 979-11-962307-1-5
-<br/>
-**[Free Download Pdf version​:]**​ http://www.robotis.com/service/download.php?no=719
-<br/>
-Hardcopy : $40 USD - http://www.robotis.us/ros-robot-programming-book/
-<br/>
-- Some selected textbook sections and conference/ journal articles will be assigned and read
-- Reading and responses to reading questions as well as discussing and reporting of the topic/papers are definitely significant parts of the course requirement to be completed
+- No Textbook is required, but selected textbook sections and conference/ journal articles will be assigned and read as part of this course.  Reading and responses to reading questions as well as discussing and reporting on the topic/papers are definitely significant parts of the course requirement to be completed <br/>
 
 #### [Recommended texts for your references​]
 
-1. “Introduction to Autonomous Mobile Robots“ Roland Siegwart, Illah Nourbakhsh, Davide Scaramuzza, MIT Press - ( ISBN-10: 0262015358), (ISBN-13: 9780262015356)
-1. “Robot Programming: A Guide to Controlling Autonomous Robots”, Cameron Hughes, Tracey Hughes Pearson - (ISBN-10: 0789755009), (ISBN-13: 978-0789755001)
-1. “Physical Computing: Sensing and Controlling the Physical World with Computers 1st Edition”, Dan O'Sullivan and Tom Igoe, (ISBN-10: 159200346X), (ISBN-13: 978-1592003464)
-1. “Arduino Cookbook- 2nd Edition”, Michael Margolis, (ISBN-10: 1449313876) , (ISBN-13: 978-1449313876)
-1. “Introduction to Robotics: Mechanics and Control : Edition 4”, John J. Craig, Pearson - (ISBN-10: 0133489795), (ISBN-13: 978-0133489798)
+1. “New Frontiers in Human-Robot Interaction, edited by Kerstin Dautenhahn and Joe Saunders - John Benjamin Publishing Company
+2. “Context Aware Human-Robot and Human-Agent Interaction (Human–Computer Interaction Series), edited by Nadia Magnenat-Thalmann, Junsong Yuan, Daniel Thalmann, Bum-Jae You
+3. "Robot Ethics, (The Ethical and Social Implications of Robotics), edited by Patrick Lin, Keith Abney, and George A. Bekey
+4. “Physical Computing: Sensing and Controlling the Physical World with Computers 1st Edition”, Dan O'Sullivan and Tom Igoe, (ISBN-10: 159200346X), (ISBN-13: 978-1592003464)
+5. “Arduino Cookbook- 2nd Edition”, Michael Margolis, (ISBN-10: 1449313876) , (ISBN-13: 978-1449313876)
+6. “Introduction to Robotics: Mechanics and Control : Edition 4”, John J. Craig, Pearson - (ISBN-10: 0133489795), (ISBN-13: 978-0133489798)
 
 ### Grading:
 Students will be evaluated based on the following course activities and graded based on the following weighting:
@@ -107,10 +98,11 @@ Students will be evaluated based on the following course activities and graded b
 |Item|Percentage|(Individual/Group)|
 |--|:--:|:--:|
 |Attendance, Participation, and (in class) Pop Quiz|10%|individual|
-|Assignments (reading, programming, and/or response)|15%|individual|
-|Midterm Exam|15%|individual|
-|Individual / Group Competition|25%|individual/group|
-|Group Project (demo, presentation, and report)|25%|group|
+|Assignments (Short project, reading and response)|20%|individual|
+|Midterm Exam|10%|individual|
+|Project Proposal Report and Presentation|20%|individual/group|
+|Project Progress Presentation|10%| individual|
+|Group Project Final Report and Presentation (demo, presentation, and report)|30%|individual/group|
 |Final Exam|20%|individual|
 |Total|110%|--|
 
@@ -128,38 +120,7 @@ Students will be evaluated based on the following course activities and graded b
 
 ### Tentative Outline of the Course:
 
-||||
-|--|--|--|
-|Week1|A|Introduction to Software Development for Robotics (Course, Schedule/Requirements)|
-||B|Ch1. Robot_Software_Platform|
-|Week2|**A**|**Martin Luther King Jr Day**|
-||B|Development Environment Setup|
-|Week3|A|Ch2. Robot_Operating_System_ROS|
-||B|Ch3. Configuring the ROS Development Environment|
-|Week4|A|Ch4. Important Concepts of ROS|
-||B|Ch5. ROS Commands|
-|Week5|A|Ch6. ROS Tools|
-||B|Ch7. Basic ROS Programming|
-|Week6|A|Ch8. Robot. Sensor. Motor.|
-||B||
-|Week7|A|Ch9. Embedded System|
-||B||
-|Week8|A|Ch10. Mobile Robots|
-||B||
-|Week9|A|Introduce ongoing projects in several laboratories (ATR Lab, Scale Lab, MediaLab, etc.)|
-||**B**|**Midterm Exam**|
-|Week10|A|Ch11. SLAM and Navigation|
-||B||
-|Week11|*******|**Spring Break**|
-|Week12|A|Ch12. Service Robot|
-||B|Ch13. Manipulator|
-|Week13|A|Project Work Time - No Lecture and tutorial, but instructor/assistant will help your HW/SW troubleshooting for your project|
-||B|Individual Robot Competition - A|
-|Week14|A|Group Project Proposal Presentation (Group - 10min presentation & 5 min QnA)|
-||B|Group Project Work Time - No Lecture and tutorial, but instructor/assistant will help your HW/SW troubleshooting for your project|
-|Week15|A|Team Robot Competition - B|
-||B|Final Project Presentation (Group - 10min presentation & 5 min QnA)|
-|Week16|*******|**Final Exam**|
+
 
 
 ### Course policy:
